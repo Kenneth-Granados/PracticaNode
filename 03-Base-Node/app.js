@@ -5,7 +5,7 @@ const { crearArchivo, listarTabla } = require('./multiplicar/multiplicar');
 
 let comando = argv._[0];
 
-
+console.clear();
 switch (comando) {
 
     case 'listar':
